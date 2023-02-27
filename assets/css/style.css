@@ -1,0 +1,149 @@
+/*
+color 1 #000524
+color 2 #1c31a5
+color 3 #6cf3d5
+color 4 #21a3a3
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #000524;
+    font-family: Ubuntu;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #000524;
+}
+
+#vazio{
+    width: 50%;
+}
+
+ul{
+    width: 50%;
+    list-style: none;
+    padding: 10px;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+nav ul li a{
+    color: #fff;
+}
+
+/**/
+
+#sobre{
+    padding: 0 6vw;
+    background: #000 url(../img/1876.jpg) center center no-repeat;
+    background-size: cover;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#texto{
+    color: #fff;
+    padding: 20px 0;
+}
+
+#texto h1{
+    padding-bottom: 20px;
+    font-size: 3rem; 
+}
+
+#texto p{
+    font-size: 2vh;
+}
+
+#texto span{
+    color: #6cf3d5;
+    text-shadow: 3px 3px 20px #000000c9;
+}
+
+#btn{
+    padding: 20px 0;
+}
+
+#btn button{
+    background: linear-gradient(90deg, #21a3a3 0%, #6cf3d5 100%);
+	border-radius: 50px;
+	border: none;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Ubuntu';
+	font-size: 1.3em;
+	padding:12px 59px;
+}
+
+#btn button:hover{
+    scale: 0.99;
+}
+
+/*Habilidades*/
+#habilidades{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    background: linear-gradient(180deg, #21a3a348 0%, #00000000 100%);
+}
+
+#habilidades h1{
+    padding: 30px 40px;
+    font-size: 3rem; 
+    color: #fff;
+}
+
+.habilidades-gerais{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#secundarias p{
+    background: linear-gradient(90deg, #21a3a3 0%, #6cf3d5 100%);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    width: 250px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.icones{
+    width: 150px;
+    background: linear-gradient(90deg, #21a3a3 0%, #6cf3d5 100%);
+    padding: 20px;
+    border-radius: 25px;
+    margin: 20px;
+}
